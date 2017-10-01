@@ -1,0 +1,8 @@
+section:nth-of-type(even) {
+	background-color: #f7f7f7;
+
+}
+
+section {
+	padding: 25px 0;
+}
