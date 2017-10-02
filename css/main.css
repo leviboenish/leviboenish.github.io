@@ -1,3 +1,6 @@
+:root {
+	--brand-color: #6247AA;
+}
 section:nth-of-type(even) {
 	background-color: #f7f7f7;
 
@@ -43,6 +46,25 @@ section {
 	color: white;
 }
 
+i {
+	color: var(--brand-color);
+}
+
+.navbar .navbar-brand {
+
+	color: var(--brand-color);
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--brand-color);
+}
+
 
 
 @media (min-width: 1200px) {
@@ -52,4 +74,8 @@ section {
 }
 
 }
-
+@media (max-width: 576px) {
+.hidden-sm-down {
+	display: none;
+}
+}
