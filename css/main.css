@@ -5,4 +5,51 @@ section:nth-of-type(even) {
 
 section {
 	padding: 25px 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+#Skills, #Experience {
+	background-image: url("../img/mountains.jpg");
+	background-size: cover;
+	background-position: 50%;
+	position: relative;
+	color: white;
+	z-index: 1;
+	background-attachment: fixed;
+
+}
+
+#Skills:after, #Experience:after {
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: "";
+	z-index: -1;
+}
+
+#About {
+	padding-top: 75px;
+}
+
+
+#Goals {
+	background-color: #111;
+	color: white;
+}
+
+
+
+@media (min-width: 1200px) {
+
+.container {
+    max-width: 992px;
+}
+
+}
+

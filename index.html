@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="#">Levi Boenish</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,8 +20,8 @@
 				<div class="collapse navbar-collapse" id="navbarText">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item"><a class="nav-link" href ="#About">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="#Skills>">Skills</a></li>
-						<li class="nav-item"><a class="nav-link" href="#Goals>">Goals</a></li>
+						<li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+						<li class="nav-item"><a class="nav-link" href="#Goals">Goals</a></li>
 						<li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
 						<li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
 					</ul>
@@ -31,8 +31,15 @@
 		</nav>
 		<section id="About">
 			<div class="container">
+				<div class="row">
+				<div class="col-md-8">
 				<h1>About Me</h1>
 				<p>I am an aspiring developer from Boulder Colorado. Currently in school to hone my craft as well as looking for development opportunities in the Denver/Boulder area. I am a musician in a few bands in Denver as well. I also love getting outdoors riding my bike, hiking, and snowboarding.</p>
+				</div>
+				<div class="col-md-4">
+					<img class="rounded-circle img-fluid" src="img/me.jpg">
+				</div>
+				</div>
 			</div>
 		</section>
 		<section id="Skills">
@@ -66,13 +73,13 @@
 				<p>Sweet Cow Ice Cream (Assistang General Manager): December 2016 - Present</p>
 			</div>
 		</section>
-		<section id="Contact">
+		<nav id="Contact" class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
 			<div class="container">
-				<h2>Contact Me</h2>
-				<p>Phone: 303-968-9636</p>
-				<p>Email: leviboenish@gmail.com</p>
+				<p class="navbar-brand">Contact Me</p>
+				<p class="navbar-text">Phone: 303-968-9636</p>
+				<p class="navbar-text">Email: leviboenish@gmail.com</p>
 			</div>
-		</section>
+		</nav>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
